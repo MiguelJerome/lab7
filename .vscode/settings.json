@@ -1,0 +1,23 @@
+ 
+//Just Change your setting put all in your launch.json 
+ 
+{ 
+    "version": "0.2.0", 
+    "configurations": [ 
+        { 
+            "name": "Launch Chrome against localhost", 
+            "type": "chrome", 
+            "request": "launch", 
+            "url": "http://127.0.0.1:5501", 
+            "webRoot": "${workspaceRoot}" 
+        }, 
+        { 
+            "name": "Attach to Chrome", 
+            "type": "chrome", 
+            "request": "attach", 
+            "port": 5501, 
+            "webRoot": "${workspaceRoot}" 
+        } 
+    ] 
+} 
+ 
